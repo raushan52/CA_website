@@ -246,6 +246,12 @@ section {
     color: white;
 }
 
+.form-container {
+    background: linear-gradient(rgba(10,0,0, 0.85), rgba(0,0,0, 0.95));
+    padding: 4%;
+    box-shadow: 1px 5px 13px -2px rgba(10,0,0, 0.65);
+}
+
 .section-7-img-div {
    
    
@@ -281,8 +287,9 @@ section {
     color: white;
 }
 
-.section-9 {
+.section-9, .section-10 {
     padding: 5%;
+   
 }
 
 .section-9-img-div img {
@@ -294,3 +301,49 @@ section {
    
 }
 
+.upper-footer {
+    position: relative;
+    background : #373837;
+}
+
+
+.footer-line {
+    background: #18191d;
+}
+
+.footer-line-text {
+    color: white;
+   text-align : center;
+}
+.footer-line-text p {
+    margin-top: 1%;
+    line-height: 2vh;
+    vertical-align: middle;
+}
+
+.footerBackgroundPrimary {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.footer-list>h3 {
+    color: white;
+    font-weight: 650;
+}
+
+.footer-list li {
+    list-style-type: none;
+   
+}
+.footer-list li>a {
+    color: white;
+}
+
+.footer-icon-div li {
+    list-style-type: none;
+    display: inline-block;
+    
+}
