@@ -127,7 +127,8 @@ section {
 }
 
 .section-3-small-col {
-    margin-bottom: 5%;   
+    margin-bottom: 5%; 
+    width: 100%;  
    
     
     
@@ -142,14 +143,20 @@ section {
 }
 
 .section-3-small-col img {
-    margin-right: 15px;
+    margin-right: 0.9375rem;
     float: left;
+    max-width: 80px;
 }
 .section-3-small-col a {
     text-decoration: none;
     color: #000;
   
 }
+.section-3-small-col h3{
+    font-size: 15px;
+    font-weight: 550;
+}
+
 /*
 .nav-item-row {
     margin-top: 1%;
