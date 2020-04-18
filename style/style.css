@@ -354,3 +354,23 @@ section {
     display: inline-block;
     
 }
+
+ .about-section-2 {
+    padding: 5%;
+}
+
+.about-image {
+    background:  linear-gradient(rgba(0,0,0, 0.65), rgba(0,0,0, 0.75)), url(../resources/others/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    padding: 15%;
+}
+
+.abt-main-heading {
+    position: relative;
+    left: 35%;
+    visibility: visible;
+    animation-name: zoomIn;
+}
