@@ -41,6 +41,10 @@ section {
     padding: 0;
 }
 
+#navbarDropdownMedia~ul>li>a, #navbarDropdownCareer~ul>li>a{
+    color: black;
+}
+
 .icon-bar {
     position: relative;
     background: #444;
@@ -373,4 +377,45 @@ section {
     left: 35%;
     visibility: visible;
     animation-name: zoomIn;
+}
+
+.start-up-services li{
+    list-style-type: none;
+}
+
+.start-up-services li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.start-up-services h4{
+   
+}
+
+.start-up-services{
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    left: 10%;
+    right: 10%;
+    background-color: white;
+}
+
+.start-up-sub-box {
+    padding: 2%;
+    
+}
+
+.start-up-sub-box ul {
+    text-align: center;
+}
+
+.start-up-sub-box h4{
+    text-align: center;
+}
+
+.start-up-sub-box li {
+   line-height: 20px;
+    
+    margin-bottom: 1em;
 }
