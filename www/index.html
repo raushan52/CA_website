@@ -11,6 +11,138 @@
 <link rel="stylesheet" href="../style/style.css" type="text/css">
 <link rel="stylesheet" href="../style/animate.min.css" >
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script>
+    $(document).ready(function(){  
+        $("#about-pg").mouseover(function(){
+            $(".start-up-services").show("slide");                   
+            
+            });
+            $(".start-up-services").mouseover(function(){  
+            $(".start-up-services").show();  
+            });  
+            $("#home-pg").mouseover(function(){
+            $(".start-up-services").hide();
+            });
+
+            $("#service-pg").mouseover(function(){
+            $(".start-up-services").hide();
+           
+            });
+
+            $("#learning-center-pg").mouseover(function(){  
+            $(".start-up-services").hide();  
+            }); 
+
+            $("#affiliates-pg").mouseover(function(){  
+            $(".start-up-services").hide();  
+            }); 
+
+            $("#career-pg").mouseover(function(){  
+            $(".start-up-services").hide();  
+            }); 
+            
+            
+            $("#media-center-pg").mouseover(function(){  
+            $(".start-up-services").hide();  
+            });
+            $("#contact-pg").mouseover(function(){  
+            $(".start-up-services").hide();  
+            });
+
+
+
+
+
+
+
+            $("#service-pg").mouseover(function(){
+            $(".main-service-head").show("slide");                   
+            
+            });
+            $(".main-service-head").mouseover(function(){  
+            $(".main-service-head").show();  
+            });  
+            $("#home-pg").mouseover(function(){
+            $(".main-service-head").hide();
+            });
+
+            $("#about-pg").mouseover(function(){
+            $(".main-service-head").hide();
+           
+            });
+
+            $("#learning-center-pg").mouseover(function(){  
+            $(".main-service-head").hide();  
+            }); 
+
+            $("#affiliates-pg").mouseover(function(){  
+            $(".main-service-head").hide();  
+            }); 
+
+            $("#career-pg").mouseover(function(){  
+            $(".main-service-head").hide();  
+            }); 
+            
+           
+            $("#media-center-pg").mouseover(function(){  
+            $(".main-service-head").hide();  
+            });
+            $("#contact-pg").mouseover(function(){  
+            $(".main-service-head").hide();  
+            });
+
+
+
+
+
+
+            
+            $("#learning-center-pg").mouseover(function(){
+            $(".learning-center-sub-head").show("slide");                   
+            
+            });
+            $(".learning-center-sub-head").mouseover(function(){  
+            $(".learning-center-sub-head").show();  
+            });  
+            $("#home-pg").mouseover(function(){
+            $(".learning-center-sub-head").hide();
+            });
+
+            $("#about-pg").mouseover(function(){
+            $(".learning-center-sub-head").hide();
+           
+            });
+
+            $("#service-pg").mouseover(function(){  
+            $(".learning-center-sub-head").hide();  
+            }); 
+
+            $("#affiliates-pg").mouseover(function(){  
+            $(".learning-center-sub-head").hide();  
+            }); 
+
+            $("#career-pg").mouseover(function(){  
+            $(".learning-center-sub-head").hide();  
+            }); 
+            
+            $("#career-nav").mouseover(function(){  
+            $(".learning-center-sub-head").hide();  
+            }); 
+            $("#media-center-pg").mouseover(function(){  
+            $(".learning-center-sub-head").hide();  
+            });
+            $("#contact-pg").mouseover(function(){  
+            $(".learning-center-sub-head").hide();  
+            });
+
+
+            
+        });
+</script>
+
 </head>
 <body>
 
@@ -32,15 +164,15 @@
                     
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav ml-auto">
-                        <li class="nav-item" id="tech-pool">
+                        <li class="nav-item" id="home-pg">
                           <a class="nav-link active" href="index.html">
                                 <!--<img src="../resources/home_page/home.png" alt="Home"><br>--> Home</a>
                         </li>
-                        <li class="nav-item" id="dev-service">
+                        <li class="nav-item" id="about-pg">
                           <a class="nav-link" href="about.html">
                                 <!--<img src="../resources/home_page/about.png" alt="About Us"><br>--> About Us</a>
                         </li>
-                        <li class="nav-item " id="how-it-works-nav">
+                        <li class="nav-item " id="service-pg">
                           <a class="nav-link navbar-toggle" type="button" href="#" id="navbarDropdownservices"  data-toggle="collapse"  aria-expanded="false" data-target="#st01" aria-controls="navbarnav">
                               <!--<img src="../resources/home_page/services-over.png" alt="Services"><br>--> Services</a>   
                               
@@ -52,15 +184,15 @@
 
                              
                         </li>
-                        <li class="nav-item" id="blog-nav">
+                        <li class="nav-item" id="learning-center-pg">
                           <a class="nav-link" href="#">
                              <!--<img src="../resources/home_page/learn.png" alt="Learning Center"><br>--> Learning Center</a>
                         </li>
-                         <li class="nav-item" id="career-nav">
+                         <li class="nav-item" id="affiliates-pg">
                           <a class="nav-link" href="#">
                              <!--<img src="../resources/home_page/clients.png" alt="Affiliates"><br>--> Affiliates</a>
                         </li>
-                         <li class="nav-item dropdown" id="contact-nav">                             
+                         <li class="nav-item dropdown" id="career-pg">                             
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCareer" data-toggle="dropdown" aria-haspopup="true"   aria-expanded="false">
                              <!--<img src="../resources/home_page/career.png" alt="Career"><br>--> Career</a>
                              <ul class="dropdown-menu dropdown-menu-right ml-auto">
@@ -72,7 +204,7 @@
                                 
                             </ul>
                         </li>
-                        <li class="nav-item dropdown" id="contact-nav">
+                        <li class="nav-item dropdown" id="media-center-pg">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMedia"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                <!--<img src="../resources/home_page/media.png" alt="Media Center"><br>--> Media Center</a>
 
@@ -86,7 +218,7 @@
                             </ul>
                                
                           </li>
-                        <li class="nav-item">
+                        <li class="nav-item" id="contact-pg">
                           <a class="nav-link" href="contact.html">
                              <!--<img src="../resources/home_page/contact.png" alt="Contact Us"><br>--> Contact Us</a>
                         </li>  
@@ -97,12 +229,142 @@
                 </header>
 
 
+                
+<script>
+    $(document).ready(function(){  
+        $("#service-pg").mouseover(function(){
+            $(".start-up-services").show("slide");                   
+            
+            });
+            $(".start-up-services").mouseover(function(){  
+            $(".start-up-services").show();  
+            });  
+            $("#home-pg").mouseover(function(){
+            $(".start-up-services").hide();
+            });
+
+            $("#about-pg").mouseover(function(){
+            $(".start-up-services").hide();
+           
+            });
+
+            $("#learning-center-pg").mouseover(function(){  
+            $(".start-up-services").hide();  
+            }); 
+
+            $("#affiliates-pg").mouseover(function(){  
+            $(".start-up-services").hide();  
+            }); 
+
+            $("#career-pg").mouseover(function(){  
+            $(".start-up-services").hide();  
+            }); 
+            
+            
+            $("#media-center-pg").mouseover(function(){  
+            $(".start-up-services").hide();  
+            });
+            $("#contact-pg").mouseover(function(){  
+            $(".start-up-services").hide();  
+            });
+
+
+
+
+
+
+
+            $("#affiliates-pg").mouseover(function(){
+            $(".main-service-head").show("slide");                   
+            
+            });
+            $(".main-service-head").mouseover(function(){  
+            $(".main-service-head").show();  
+            });  
+            $("#home-pg").mouseover(function(){
+            $(".main-service-head").hide();
+            });
+
+            $("#about-pg").mouseover(function(){
+            $(".main-service-head").hide();
+           
+            });
+
+            $("#service-pg").mouseover(function(){  
+            $(".main-service-head").hide();  
+            }); 
+
+            $("#learning-center-pg").mouseover(function(){  
+            $(".main-service-head").hide();  
+            }); 
+
+            $("#career-pg").mouseover(function(){  
+            $(".main-service-head").hide();  
+            }); 
+            
+           
+            $("#media-center-pg").mouseover(function(){  
+            $(".main-service-head").hide();  
+            });
+            $("#contact-pg").mouseover(function(){  
+            $(".main-service-head").hide();  
+            });
+
+
+
+
+
+
+            
+            $("#learning-center-pg").mouseover(function(){
+            $(".learning-center-sub-head").show("slide");                   
+            
+            });
+            $(".learning-center-sub-head").mouseover(function(){  
+            $(".learning-center-sub-head").show();  
+            });  
+            $("#home-pg").mouseover(function(){
+            $(".learning-center-sub-head").hide();
+            });
+
+            $("#about-pg").mouseover(function(){
+            $(".learning-center-sub-head").hide();
+           
+            });
+
+            $("#service-pg").mouseover(function(){  
+            $(".learning-center-sub-head").hide();  
+            }); 
+
+            $("#affiliates-pg").mouseover(function(){  
+            $(".learning-center-sub-head").hide();  
+            }); 
+
+            $("#career-pg").mouseover(function(){  
+            $(".learning-center-sub-head").hide();  
+            }); 
+            
+            $("#career-nav").mouseover(function(){  
+            $(".learning-center-sub-head").hide();  
+            }); 
+            $("#media-center-pg").mouseover(function(){  
+            $(".learning-center-sub-head").hide();  
+            });
+            $("#contact-pg").mouseover(function(){  
+            $(".learning-center-sub-head").hide();  
+            });
+
+
+            
+        });
+</script>
+
+
                 <!-- start-up-services sub nav-->
-                    <div class="container start-up-services" id="st01" style="display: none;">
+                    <div class="container start-up-services" id="st01">
                         <div class="row">
                             <div class="col-md-3 start-up-sub-box">
-                                <h4>Start My Buisness</h4>
-                                <hr>
+                                <h4>Start My Buisness</h4>                                
                                <ul>
                                    <li><a href="#">Proprietorship</a></li>
                                    <li><a href="#">Partnership </a></li>
@@ -113,8 +375,7 @@
                                </ul>
                             </div>
                             <div class="col-md-3 start-up-sub-box">
-                                <h4>Maintain My Business</h4>
-                                <hr>
+                                <h4>Maintain My Business</h4>                               
                                 <ul>
                                     <li><a href="#">Business LIcense / Registration</a></li>
                                     <li><a href="#">ESI Registration</a></li>
@@ -125,8 +386,7 @@
                                 </ul>
                             </div>
                             <div class="col-md-3 start-up-sub-box">
-                                <h4>My Regulatory Filing</h4>
-                                <hr>
+                                <h4>My Regulatory Filing</h4>                                
                                 <ul>
                                     <li><a href="#">Business Return Filings</a></li>
                                     <li><a href="#">EPF Return</a></li>
@@ -137,8 +397,7 @@
                                 </ul>
                             </div>
                             <div class="col-md-3 start-up-sub-box">
-                                <h4>GST Services</h4>
-                                <hr>
+                                <h4>GST Services</h4>                               
                                 <ul>
                                     <li><a href="#">GST Registration</a></li>
                                     <li><a href="#">GST Consultancy</a></li>
@@ -152,6 +411,127 @@
 
                     </div>
                 <!-- start-up-services sub nav-->
+
+                <!--main-services sub-nav -->
+                <div class="container main-service-head" >
+                    <div class="row">
+                        <div class="col-md-3 main-service-sub-box">
+                            <h4>Business Setup in India</h4><hr>
+                            <ul>
+                                <li><a href="#">Business Setup in India</a></li>
+                                <li><a href="#">Entry Strategy</a></li>
+                                <li><a href="#">Growth Strategy</a></li>
+                                <li><a href="#">Diversification Strategy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 main-service-sub-box">
+                            <h4>Audit & Assurance</h4><hr>
+                            <ul>
+                                <li><a href="#">Internal Audit</a></li>
+                                <li><a href="#">Management Audit</a></li>
+                                <li><a href="#">Sox Audit & Clause 49</a></li>
+                                <li><a href="#">Due Diligence Audit</a></li>
+                            </ul>
+                        </div> 
+                        <div class="col-md-3 main-service-sub-box">
+                            <h4>Corporate Law Compliance</h4><hr>
+                            <ul>
+                                <li><a href="#">XBRL Data Conversion Service</a></li>
+                                <li><a href="#">LLP Consultancy</a></li>
+                                <li><a href="#">Restructuring Services</a></li>
+                                <li><a href="#">Company Secretarial Services</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 main-service-sub-box">
+                            <h4>Tax & Regulatory Compliance</h4><hr>
+                            <ul>
+                                <li><a href="#">Value Added Tax (VAT)</a></li>
+                                <li><a href="#">Service Tax</a></li>
+                                <li><a href="#">Central Excise</a></li>
+                                <li><a href="#">Custom Law Services</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 main-service-sub-box">
+                            <h4>Business Setup Outside India</h4><hr>
+                            <ul>
+                                <li><a href="">Business Setup Outside India</a></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="col-md-3 main-service-sub-box">
+                            <h4>Business Outsourcing Service</h4><hr>
+                            <ul>
+                                <li><a href="">Outsourcing Services</a></li>
+                                <li><a href="">Operational Excellence</a></li>
+                                <li><a href="">Performance Optimization</a></li>
+                                <li><a href="">Project Financing</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 main-service-sub-box">
+                            <h4>Tax & Regulatory</h4><hr>
+                            <ul>
+                                <li><a href="">Income Tax Services</a></li>
+                                <li><a href="">Certification Work</a></li>
+                                <li><a href="">TDS</a></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="col-md-3 main-service-sub-box">
+                            <h4>Virtual Office Facility</h4><hr>
+                            <ul>
+                                <li><a href="">Virtual Office Facility</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--main-services sub-nav -->
+
+                <!--learning-center sub-nav-->
+                <div class="container learning-center-sub-head">
+                    <div class="row">
+                        <div class="col-md-3 learning-center-sub-head-box">
+                            <h4>Business Entities</h4><hr>
+                            <ul>
+                                <li><a href="">Private Limited Company</a></li>
+                                <li><a href="">Limited Liability Partnership</a></li>
+                                <li><a href="">One Person Company</a></li>
+                                <li><a href="">Proprietorship</a></li>
+                                <li><a href="">Company Law</a></li>
+                                <li><a href="">Others</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 learning-center-sub-head-box">
+                            <h4>Taxation</h4><hr>
+                            <ul>
+                                <li><a href="">GST</a></li>
+                                <li><a href="">UAE VAT</a></li>
+                                <li><a href="">Income Tax</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 learning-center-sub-head-box">
+                            <h4>Intellectual Property</h4><hr>
+                            <ul>
+                                <li><a href="">Trademark Laws</a></li>
+                                <li><a href="">Copyright Laws</a></li>
+                                <li><a href="">Patent Laws</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 learning-center-sub-head-box">
+                            <h4>Doing Business</h4><hr>
+                            <ul>
+                                <li><a href="">Business Startup</a></li>
+                                <li><a href="">Business Funding</a></li>
+                                <li><a href="">Subsidies & Schemes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--learning-center sub-nav-->
 
         </div>
         
@@ -931,6 +1311,9 @@
 
 
     </div>
+
+
+    
    
     <!--
     <header class="container-fluid">
@@ -1018,6 +1401,8 @@
     
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
 
 <!-- Popper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

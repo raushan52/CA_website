@@ -383,39 +383,119 @@ section {
     list-style-type: none;
 }
 
-.start-up-services li a {
+.start-up-services li a, .main-service-sub-box li a, .learning-center-sub-head-box li a {
     text-decoration: none;
     color: #333;
 }
 
-.start-up-services h4{
-   
+.start-up-services {
+   display: none;
 }
 
 .start-up-services{
     position: absolute;
     z-index: 1000;
-    width: 100%;
+    width: 75%;
     left: 10%;
     right: 10%;
     background-color: white;
 }
 
-.start-up-sub-box {
+.main-service-head, .learning-center-sub-head{
+    position: absolute;
+    z-index: 1000;
+    width: 70%;
+    left: 10%;
+    right: 10%;
+    background-color: white;
+}
+
+
+.main-service-head {
+    display: none;
+}
+
+
+.start-up-sub-box, .main-service-sub-box, .learning-center-sub-head-box {
     padding: 2%;
     
 }
 
-.start-up-sub-box ul {
+.start-up-sub-box ul, .main-service-sub-box>ul, .learning-center-sub-head-box>ul, .start-up-sub-box>h4,  .main-service-sub-box>h4, .learning-center-sub-head-box>h4 {
     text-align: center;
 }
 
 .start-up-sub-box h4{
     text-align: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
 }
 
-.start-up-sub-box li {
+.start-up-sub-box li, .main-service-sub-box li, .learning-center-sub-head-box li {
    line-height: 20px;
     
     margin-bottom: 1em;
+}
+
+.main-service-sub-box li, .learning-center-sub-head-box li {
+    list-style-type: none;
+}
+
+.learning-center-sub-head-box {
+
+}
+
+.learning-center-sub-head{
+    display: none;
+}
+
+
+.contact-page-sec-1-container{
+    background: linear-gradient(rgba(0,0,0, 0.65), rgba(0,0,0, 0.75)), url(../resources/others/about-2.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+
+.section-1-contact-container-box {   
+    background-color: #fff;
+    width: 100%;
+    height: max-content;
+    padding: 24px 30px;
+    border-radius: 10px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    text-align: center;
+    -webkit-transition: 0.2s ease;
+    box-shadow: 0px 1px 13px -2px;
+    opacity: 0.8;
+}
+
+.sebx-fnt-logo {
+    background-color: #33ccff;
+    padding: 1.12rem;
+    border-radius: 50%;
+    border: 2px solid;
+    margin-top: auto;
+    position: relative;
+    margin-top: -73px;
+    margin-bottom: 20px;
+    width: 90px;
+
+}
+
+.section-1-contact-container-box span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #101010;
+    position: relative;
+    top: 2px;
+}
+
+.sec-2-contact-box>div{
+    background-color: #f6f6f6;
+    padding: 2rem;
+    
 }
